@@ -1,0 +1,38 @@
+// 定义变量
+@primary-color: #3445D0; // 主色调
+//  按钮全局自定义样式
+:root {
+  --el-color-info: #d1d5db;
+  --el-color-primary: #3445d0;
+  --el-border-color: #e5e7eb;
+  --el-color-primary-light-3:@primary-color;
+}
+.el-button {
+  border-radius: 8px;
+  padding: 10px 16px;
+}
+.el-button.el-button--primary {
+  background-color: @primary-color;
+  border-color: @primary-color;
+}
+.el-button.el-button--info {
+  background-color: #d1d5db;
+  border-radius: 8px;
+  span {
+    color: #9ca3af;
+  }
+}
+
+
+.el-dialog__body{
+  word-break: break-word !important;
+}
+.el-dialog__headerbtn {
+  top: 2px !important;
+  .el-dialog__close {
+    color: #6B7280 !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+  }
+}
+

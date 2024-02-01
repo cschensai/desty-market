@@ -1,0 +1,47 @@
+{
+  "name": "desty-cli-ssr",
+  "private": false,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --mode development",
+    "test": "vite build --mode test",
+    "staging": "vite build --mode staging",
+    "build": "vite build --mode production",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@lottiefiles/lottie-player": "^1.7.1",
+    "animate.css": "^4.1.1",
+    "axios": "^0.27.1",
+    "desty-design": "1.9.2",
+    "desty-tracker": "^1.0.1",
+    "element-plus": "^2.2.28",
+    "gsap": "^3.11.4",
+    "lodash.chunk": "^4.2.0",
+    "md5": "^2.3.0",
+    "swiper": "^8.4.5",
+    "vue": "3.2.24",
+    "vue-axios": "^3.4.1",
+    "vue-i18n": "^9.1.9",
+    "vue-meta": "^3.0.0-alpha.10",
+    "vue-router": "^4.0.14",
+    "vue3-lazyload": "^0.3.6",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "autoprefixer": "^10.4.13",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "postcss": "^8.4.20",
+    "postcss-pxtorem": "^6.0.0",
+    "rollup-plugin-visualizer": "^5.9.0",
+    "unplugin-auto-import": "^0.7.1",
+    "unplugin-element-plus": "^0.4.0",
+    "unplugin-vue-components": "^0.19.3",
+    "vite": "^2.9.5",
+    "vite-plugin-html": "^3.2.0",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vite-plugin-webpackchunkname": "^0.2.4"
+  }
+}
